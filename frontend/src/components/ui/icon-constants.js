@@ -50,6 +50,7 @@ import {
   faChevronUp,
   faChevronLeft,
   faChevronRight,
+  faShieldAlt,
 } from '@fortawesome/free-solid-svg-icons'
 
 // Icon mapping for easy usage
@@ -124,6 +125,9 @@ export const iconMap = {
   // Menu & UI
   bars: faBars,
   'ellipsis-v': faEllipsisV,
+  
+  // Security & Quality
+  'shield-check': faShieldAlt,
 }
 
 // Export available icon names for reference
