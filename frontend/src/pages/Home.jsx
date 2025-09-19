@@ -1,24 +1,35 @@
 import { Button, Card, Section, Typography, Grid, Icon } from '../components/ui'
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
+  const navigate = useNavigate()
+
+  const handleExploreProducts = () => {
+    navigate('/products')
+  }
+
+  const handleContactUs = () => {
+    navigate('/contact')
+  }
+
   return (
     <>
       {/* Hero Section */}
       <Section variant="hero" background="primary-dark" padding="2xl">
         <div className="text-center">
           <Typography variant="display1" color="white" className="mb-6">
-            Welcome to Mato Industries
+            Leaders in Quality Machining and Casting
           </Typography>
           <Typography variant="lead" color="white" className="mb-8 max-w-3xl mx-auto">
             Leaders in Quality Machining and Casting. Specializing in Bronze Bushings, 
             Thrust Washers, and Copper Alloy Components.
           </Typography>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="accent" size="lg">
+            <Button variant="accent" size="lg" onClick={handleExploreProducts}>
               <Icon name="box" className="mr-2" />
               Explore Our Products
             </Button>
-            <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-yellow-600">
+            <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-yellow-600" onClick={handleContactUs}>
               <Icon name="phone" className="mr-2" />
               Contact Us
             </Button>
@@ -100,6 +111,57 @@ function Home() {
               Learn More
               <Icon name="arrow-right" className="ml-2" />
             </Button>
+          </Card>
+        </Grid>
+      </Section>
+
+      {/* Contact Info Preview */}
+      <Section background="primary-dark" padding="xl">
+        <Section.Header 
+          title="Get In Touch"
+          subtitle="Contact Us"
+          description="Ready to discuss your project? Our team is here to help with your manufacturing needs"
+          centered
+        />
+        
+        <Grid cols={3} gap="lg" className="mt-12">
+          <Card variant="primary" hover>
+            <div className="text-center">
+              <Icon name="phone" size="xl" color="primary" className="mb-4" />
+              <Typography variant="h5" className="mb-2">Call Us</Typography>
+              <Typography variant="body" color="muted">
+                Speak directly with our engineering team
+              </Typography>
+              <Typography variant="body" className="mt-2 font-medium">
+                +1 (555) 123-4567
+              </Typography>
+            </div>
+          </Card>
+          
+          <Card variant="primary" hover>
+            <div className="text-center">
+              <Icon name="envelope" size="xl" color="primary" className="mb-4" />
+              <Typography variant="h5" className="mb-2">Email Us</Typography>
+              <Typography variant="body" color="muted">
+                Send us your specifications and requirements
+              </Typography>
+              <Typography variant="body" className="mt-2 font-medium">
+                info@matoindustries.com
+              </Typography>
+            </div>
+          </Card>
+          
+          <Card variant="primary" hover>
+            <div className="text-center">
+              <Icon name="map-marker" size="xl" color="primary" className="mb-4" />
+              <Typography variant="h5" className="mb-2">Visit Us</Typography>
+              <Typography variant="body" color="muted">
+                Tour our manufacturing facility and capabilities
+              </Typography>
+              <Button variant="outline" size="sm" className="mt-3" onClick={handleContactUs}>
+                Get Directions
+              </Button>
+            </div>
           </Card>
         </Grid>
       </Section>
