@@ -54,9 +54,9 @@ const Section = ({
     white: 'bg-white',
     gray: 'bg-stone-50',
     'light-gray': 'bg-stone-100',
-    primary: 'bg-amber-50',
-    'primary-dark': 'bg-amber-800 text-white',
-    accent: 'bg-yellow-50',
+    primary: 'bg-yellow-50',
+    'primary-dark': 'bg-yellow-600 text-white',
+    accent: 'bg-yellow-100',
     'accent-dark': 'bg-yellow-700 text-white',
     dark: 'bg-stone-900 text-white',
   }
@@ -117,7 +117,7 @@ const SectionHeader = ({
   return (
     <div className={`mb-12 ${headerStyles}`} {...props}>
       {subtitle && (
-        <p className="text-sm font-semibold text-amber-700 uppercase tracking-wide mb-2">
+        <p className="text-sm font-semibold text-yellow-600 uppercase tracking-wide mb-2">
           {subtitle}
         </p>
       )}

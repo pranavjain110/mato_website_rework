@@ -25,10 +25,10 @@ const Button = forwardRef(({
   // Variant styles
   const variantStyles = {
     primary: `
-      bg-amber-700 text-white border border-amber-700
-      hover:bg-amber-800 hover:border-amber-800
-      focus:ring-amber-500
-      active:bg-amber-900
+      bg-yellow-600 text-white border border-yellow-600
+      hover:bg-yellow-700 hover:border-yellow-700
+      focus:ring-yellow-500
+      active:bg-yellow-800
     `,
     secondary: `
       bg-stone-600 text-white border border-stone-600
@@ -37,10 +37,10 @@ const Button = forwardRef(({
       active:bg-stone-800
     `,
     outline: `
-      bg-transparent text-amber-700 border border-amber-700
-      hover:bg-amber-50 hover:text-amber-800 hover:border-amber-800
-      focus:ring-amber-500
-      active:bg-amber-100
+      bg-transparent text-yellow-600 border border-yellow-600
+      hover:bg-yellow-50 hover:text-yellow-700 hover:border-yellow-700
+      focus:ring-yellow-500
+      active:bg-yellow-100
     `,
     ghost: `
       bg-transparent text-stone-700 border border-transparent
@@ -49,10 +49,10 @@ const Button = forwardRef(({
       active:bg-stone-200
     `,
     accent: `
-      bg-yellow-600 text-white border border-yellow-600
-      hover:bg-yellow-700 hover:border-yellow-700
+      bg-yellow-500 text-white border border-yellow-500
+      hover:bg-yellow-600 hover:border-yellow-600
       focus:ring-yellow-400
-      active:bg-yellow-800
+      active:bg-yellow-700
     `,
     success: `
       bg-green-600 text-white border border-green-600

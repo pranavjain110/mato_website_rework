@@ -24,7 +24,7 @@ const Icon = ({
   // Color styles
   const colorStyles = {
     current: 'text-current',
-    primary: 'text-amber-700',
+    primary: 'text-yellow-600',
     secondary: 'text-stone-600',
     accent: 'text-yellow-600',
     success: 'text-green-600',

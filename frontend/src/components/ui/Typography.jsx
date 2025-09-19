@@ -42,7 +42,7 @@ const Typography = ({
     error: 'text-red-600',
     success: 'text-green-600',
     warning: 'text-yellow-600',
-    info: 'text-amber-700',
+    info: 'text-yellow-600',
   }
 
   // Size override styles (when size prop is provided)
@@ -74,13 +74,13 @@ const Typography = ({
   // Color override styles
   const colorStyles = {
     default: '', // Use variant's default color
-    primary: 'text-amber-700',
+    primary: 'text-yellow-600',
     secondary: 'text-stone-600',
     accent: 'text-yellow-600',
     success: 'text-green-600',
     warning: 'text-yellow-600',
     error: 'text-red-600',
-    info: 'text-amber-700',
+    info: 'text-yellow-600',
     muted: 'text-stone-500',
     white: 'text-white',
     black: 'text-stone-900',

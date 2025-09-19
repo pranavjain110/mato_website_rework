@@ -2,18 +2,18 @@
 // Industrial/Manufacturing themed color palette
 
 export const colors = {
-  // Primary brand colors - Copper/Bronze tones
+  // Primary brand colors - Golden Yellow (#ca8a04 as requested)
   primary: {
-    50: '#fdf8f6',   // Very light copper
-    100: '#f2e8de',  // Light copper
-    200: '#e9d5c4',  // Lighter copper
-    300: '#d3b091',  // Medium light copper
-    400: '#b8835a',  // Medium copper
-    500: '#9f5f3a',  // Primary copper/bronze
-    600: '#8b4d2b',  // Darker copper
-    700: '#73422a',  // Dark copper
-    800: '#5f3928',  // Very dark copper
-    900: '#4f2f23',  // Darkest copper
+    50: '#fefce8',   // Very light golden
+    100: '#fef3c7',  // Light golden
+    200: '#fde68a',  // Lighter golden
+    300: '#fcd34d',  // Medium light golden
+    400: '#fbbf24',  // Medium golden
+    500: '#ca8a04',  // Primary golden (as requested)
+    600: '#a16207',  // Darker golden
+    700: '#854d0e',  // Dark golden
+    800: '#713f12',  // Very dark golden
+    900: '#451a03',  // Darkest golden
   },
   
   // Secondary colors - Industrial Grays with warmer undertones
