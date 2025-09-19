@@ -50,6 +50,12 @@ import {
   faChevronUp,
   faChevronLeft,
   faChevronRight,
+  faHandshake,
+  faFlask,
+  faFire,
+  faClipboardCheck,
+  faShieldAlt,
+  faDatabase,
 } from '@fortawesome/free-solid-svg-icons'
 
 // Icon mapping for easy usage
@@ -74,6 +80,12 @@ export const iconMap = {
   award: faAward,
   'chart-line': faChartLine,
   users: faUsers,
+  handshake: faHandshake,
+  flask: faFlask,
+  fire: faFire,
+  'clipboard-check': faClipboardCheck,
+  'shield-check': faShieldAlt,
+  database: faDatabase,
   
   // Status & Feedback
   'check-circle': faCheckCircle,
