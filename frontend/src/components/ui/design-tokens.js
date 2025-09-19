@@ -2,46 +2,46 @@
 // Industrial/Manufacturing themed color palette
 
 export const colors = {
-  // Primary brand colors - Industrial Blues
+  // Primary brand colors - Copper/Bronze tones
   primary: {
-    50: '#eff6ff',   // Very light blue
-    100: '#dbeafe',  // Light blue
-    200: '#bfdbfe',  // Lighter blue
-    300: '#93c5fd',  // Medium light blue
-    400: '#60a5fa',  // Medium blue
-    500: '#3b82f6',  // Primary blue
-    600: '#2563eb',  // Darker blue
-    700: '#1d4ed8',  // Dark blue
-    800: '#1e40af',  // Very dark blue
-    900: '#1e3a8a',  // Darkest blue
+    50: '#fdf8f6',   // Very light copper
+    100: '#f2e8de',  // Light copper
+    200: '#e9d5c4',  // Lighter copper
+    300: '#d3b091',  // Medium light copper
+    400: '#b8835a',  // Medium copper
+    500: '#9f5f3a',  // Primary copper/bronze
+    600: '#8b4d2b',  // Darker copper
+    700: '#73422a',  // Dark copper
+    800: '#5f3928',  // Very dark copper
+    900: '#4f2f23',  // Darkest copper
   },
   
-  // Secondary colors - Industrial Grays
+  // Secondary colors - Industrial Grays with warmer undertones
   gray: {
-    50: '#f9fafb',   // Almost white
-    100: '#f3f4f6',  // Very light gray
-    200: '#e5e7eb',  // Light gray
-    300: '#d1d5db',  // Medium light gray
-    400: '#9ca3af',  // Medium gray
-    500: '#6b7280',  // Gray
-    600: '#4b5563',  // Dark gray
-    700: '#374151',  // Darker gray
-    800: '#1f2937',  // Very dark gray
-    900: '#111827',  // Darkest gray
+    50: '#fafaf9',   // Almost white with warm tint
+    100: '#f5f5f4',  // Very light warm gray
+    200: '#e7e5e4',  // Light warm gray
+    300: '#d6d3d1',  // Medium light warm gray
+    400: '#a8a29e',  // Medium warm gray
+    500: '#78716c',  // Warm gray
+    600: '#57534e',  // Dark warm gray
+    700: '#44403c',  // Darker warm gray
+    800: '#292524',  // Very dark warm gray
+    900: '#1c1917',  // Darkest warm gray
   },
   
-  // Accent colors - Manufacturing Orange/Copper
+  // Accent colors - Industrial Bronze/Gold
   accent: {
-    50: '#fff7ed',   // Very light orange
-    100: '#ffedd5',  // Light orange
-    200: '#fed7aa',  // Lighter orange
-    300: '#fdba74',  // Medium light orange
-    400: '#fb923c',  // Medium orange
-    500: '#f97316',  // Primary orange
-    600: '#ea580c',  // Darker orange
-    700: '#c2410c',  // Dark orange
-    800: '#9a3412',  // Very dark orange
-    900: '#7c2d12',  // Darkest orange
+    50: '#fefbf3',   // Very light gold
+    100: '#fef3c7',  // Light gold
+    200: '#fde68a',  // Lighter gold
+    300: '#fcd34d',  // Medium light gold
+    400: '#f59e0b',  // Medium gold
+    500: '#d97706',  // Primary gold/bronze
+    600: '#b45309',  // Darker gold
+    700: '#92400e',  // Dark bronze
+    800: '#78350f',  // Very dark bronze
+    900: '#451a03',  // Darkest bronze
   },
   
   // Success colors - Industrial Green

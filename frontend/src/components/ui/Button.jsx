@@ -25,34 +25,34 @@ const Button = forwardRef(({
   // Variant styles
   const variantStyles = {
     primary: `
-      bg-blue-600 text-white border border-blue-600
-      hover:bg-blue-700 hover:border-blue-700
-      focus:ring-blue-500
-      active:bg-blue-800
+      bg-amber-700 text-white border border-amber-700
+      hover:bg-amber-800 hover:border-amber-800
+      focus:ring-amber-500
+      active:bg-amber-900
     `,
     secondary: `
-      bg-gray-600 text-white border border-gray-600
-      hover:bg-gray-700 hover:border-gray-700
-      focus:ring-gray-500
-      active:bg-gray-800
+      bg-stone-600 text-white border border-stone-600
+      hover:bg-stone-700 hover:border-stone-700
+      focus:ring-stone-500
+      active:bg-stone-800
     `,
     outline: `
-      bg-transparent text-blue-600 border border-blue-600
-      hover:bg-blue-50 hover:text-blue-700 hover:border-blue-700
-      focus:ring-blue-500
-      active:bg-blue-100
+      bg-transparent text-amber-700 border border-amber-700
+      hover:bg-amber-50 hover:text-amber-800 hover:border-amber-800
+      focus:ring-amber-500
+      active:bg-amber-100
     `,
     ghost: `
-      bg-transparent text-gray-700 border border-transparent
-      hover:bg-gray-100 hover:text-gray-800
-      focus:ring-gray-500
-      active:bg-gray-200
+      bg-transparent text-stone-700 border border-transparent
+      hover:bg-stone-100 hover:text-stone-800
+      focus:ring-stone-500
+      active:bg-stone-200
     `,
     accent: `
-      bg-orange-500 text-white border border-orange-500
-      hover:bg-orange-600 hover:border-orange-600
-      focus:ring-orange-400
-      active:bg-orange-700
+      bg-yellow-600 text-white border border-yellow-600
+      hover:bg-yellow-700 hover:border-yellow-700
+      focus:ring-yellow-400
+      active:bg-yellow-800
     `,
     success: `
       bg-green-600 text-white border border-green-600

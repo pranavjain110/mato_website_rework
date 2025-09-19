@@ -17,11 +17,11 @@ const Card = ({
 
   // Variant styles
   const variantStyles = {
-    default: 'border-gray-200',
-    elevated: 'border-gray-100',
-    outlined: 'border-gray-300',
-    primary: 'border-blue-200 bg-blue-50',
-    accent: 'border-orange-200 bg-orange-50',
+    default: 'border-stone-200',
+    elevated: 'border-stone-100',
+    outlined: 'border-stone-300',
+    primary: 'border-amber-200 bg-amber-50',
+    accent: 'border-yellow-200 bg-yellow-50',
     success: 'border-green-200 bg-green-50',
     warning: 'border-yellow-200 bg-yellow-50',
     error: 'border-red-200 bg-red-50',
@@ -81,7 +81,7 @@ Card.propTypes = {
 
 // Card sub-components for better composition
 const CardHeader = ({ children, className = '', ...props }) => (
-  <div className={`border-b border-gray-200 pb-4 mb-4 ${className}`} {...props}>
+  <div className={`border-b border-stone-200 pb-4 mb-4 ${className}`} {...props}>
     {children}
   </div>
 )
@@ -92,7 +92,7 @@ CardHeader.propTypes = {
 }
 
 const CardTitle = ({ children, className = '', ...props }) => (
-  <h3 className={`text-lg font-semibold text-gray-900 ${className}`} {...props}>
+  <h3 className={`text-lg font-semibold text-stone-900 ${className}`} {...props}>
     {children}
   </h3>
 )
@@ -103,7 +103,7 @@ CardTitle.propTypes = {
 }
 
 const CardDescription = ({ children, className = '', ...props }) => (
-  <p className={`text-sm text-gray-600 mt-1 ${className}`} {...props}>
+  <p className={`text-sm text-stone-600 mt-1 ${className}`} {...props}>
     {children}
   </p>
 )
@@ -125,7 +125,7 @@ CardContent.propTypes = {
 }
 
 const CardFooter = ({ children, className = '', ...props }) => (
-  <div className={`border-t border-gray-200 pt-4 mt-4 ${className}`} {...props}>
+  <div className={`border-t border-stone-200 pt-4 mt-4 ${className}`} {...props}>
     {children}
   </div>
 )

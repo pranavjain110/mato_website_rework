@@ -24,15 +24,15 @@ const Icon = ({
   // Color styles
   const colorStyles = {
     current: 'text-current',
-    primary: 'text-blue-600',
-    secondary: 'text-gray-600',
-    accent: 'text-orange-500',
+    primary: 'text-amber-700',
+    secondary: 'text-stone-600',
+    accent: 'text-yellow-600',
     success: 'text-green-600',
     warning: 'text-yellow-500',
     error: 'text-red-600',
     white: 'text-white',
     black: 'text-black',
-    muted: 'text-gray-400',
+    muted: 'text-stone-400',
   }
 
   // Get the icon from the map
@@ -88,7 +88,7 @@ const IconButton = ({
     <button
       className={`
         inline-flex items-center gap-2 transition-colors duration-200
-        ${variant === 'ghost' ? 'text-gray-600 hover:text-gray-800' : ''}
+        ${variant === 'ghost' ? 'text-stone-600 hover:text-stone-800' : ''}
         ${className}
       `.replace(/\s+/g, ' ').trim()}
       {...props}

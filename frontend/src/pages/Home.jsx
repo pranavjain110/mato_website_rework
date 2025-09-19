@@ -18,7 +18,7 @@ function Home() {
               <Icon name="box" className="mr-2" />
               Explore Our Products
             </Button>
-            <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-blue-600">
+            <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-amber-800">
               <Icon name="phone" className="mr-2" />
               Contact Us
             </Button>

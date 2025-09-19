@@ -14,35 +14,35 @@ const Typography = ({
   // Variant styles (includes semantic sizing and styling)
   const variantStyles = {
     // Headings
-    h1: 'text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight',
-    h2: 'text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight',
-    h3: 'text-2xl md:text-3xl font-semibold text-gray-900 leading-snug',
-    h4: 'text-xl md:text-2xl font-semibold text-gray-900 leading-snug',
-    h5: 'text-lg md:text-xl font-medium text-gray-900 leading-normal',
-    h6: 'text-base md:text-lg font-medium text-gray-900 leading-normal',
+    h1: 'text-4xl md:text-5xl lg:text-6xl font-bold text-stone-900 leading-tight',
+    h2: 'text-3xl md:text-4xl lg:text-5xl font-bold text-stone-900 leading-tight',
+    h3: 'text-2xl md:text-3xl font-semibold text-stone-900 leading-snug',
+    h4: 'text-xl md:text-2xl font-semibold text-stone-900 leading-snug',
+    h5: 'text-lg md:text-xl font-medium text-stone-900 leading-normal',
+    h6: 'text-base md:text-lg font-medium text-stone-900 leading-normal',
     
     // Display text (larger than headings)
-    display1: 'text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-none',
-    display2: 'text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight',
+    display1: 'text-5xl md:text-6xl lg:text-7xl font-bold text-stone-900 leading-none',
+    display2: 'text-4xl md:text-5xl lg:text-6xl font-bold text-stone-900 leading-tight',
     
     // Body text
-    body: 'text-base text-gray-700 leading-relaxed',
-    'body-large': 'text-lg text-gray-700 leading-relaxed',
-    'body-small': 'text-sm text-gray-700 leading-normal',
+    body: 'text-base text-stone-700 leading-relaxed',
+    'body-large': 'text-lg text-stone-700 leading-relaxed',
+    'body-small': 'text-sm text-stone-700 leading-normal',
     
     // Lead text (intro paragraphs)
-    lead: 'text-xl text-gray-600 leading-relaxed',
+    lead: 'text-xl text-stone-600 leading-relaxed',
     
     // Captions and labels
-    caption: 'text-sm text-gray-500 leading-normal',
-    label: 'text-sm font-medium text-gray-700 leading-normal',
+    caption: 'text-sm text-stone-500 leading-normal',
+    label: 'text-sm font-medium text-stone-700 leading-normal',
     
     // Utility variants
-    muted: 'text-gray-500',
+    muted: 'text-stone-500',
     error: 'text-red-600',
     success: 'text-green-600',
     warning: 'text-yellow-600',
-    info: 'text-blue-600',
+    info: 'text-amber-700',
   }
 
   // Size override styles (when size prop is provided)
@@ -74,16 +74,16 @@ const Typography = ({
   // Color override styles
   const colorStyles = {
     default: '', // Use variant's default color
-    primary: 'text-blue-600',
-    secondary: 'text-gray-600',
-    accent: 'text-orange-500',
+    primary: 'text-amber-700',
+    secondary: 'text-stone-600',
+    accent: 'text-yellow-600',
     success: 'text-green-600',
     warning: 'text-yellow-600',
     error: 'text-red-600',
-    info: 'text-blue-600',
-    muted: 'text-gray-500',
+    info: 'text-amber-700',
+    muted: 'text-stone-500',
     white: 'text-white',
-    black: 'text-gray-900',
+    black: 'text-stone-900',
   }
 
   // Alignment styles

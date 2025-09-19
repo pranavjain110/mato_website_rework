@@ -19,7 +19,7 @@ const Section = ({
     hero: 'relative overflow-hidden',
     feature: 'relative',
     content: '',
-    footer: 'border-t border-gray-200',
+    footer: 'border-t border-stone-200',
   }
 
   // Padding styles
@@ -52,13 +52,13 @@ const Section = ({
   const backgroundStyles = {
     transparent: 'bg-transparent',
     white: 'bg-white',
-    gray: 'bg-gray-50',
-    'light-gray': 'bg-gray-100',
-    primary: 'bg-blue-50',
-    'primary-dark': 'bg-blue-600 text-white',
-    accent: 'bg-orange-50',
-    'accent-dark': 'bg-orange-500 text-white',
-    dark: 'bg-gray-900 text-white',
+    gray: 'bg-stone-50',
+    'light-gray': 'bg-stone-100',
+    primary: 'bg-amber-50',
+    'primary-dark': 'bg-amber-800 text-white',
+    accent: 'bg-yellow-50',
+    'accent-dark': 'bg-yellow-700 text-white',
+    dark: 'bg-stone-900 text-white',
   }
 
   // Combine section styles
@@ -117,17 +117,17 @@ const SectionHeader = ({
   return (
     <div className={`mb-12 ${headerStyles}`} {...props}>
       {subtitle && (
-        <p className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">
+        <p className="text-sm font-semibold text-amber-700 uppercase tracking-wide mb-2">
           {subtitle}
         </p>
       )}
       {title && (
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-stone-900 mb-4">
           {title}
         </h2>
       )}
       {description && (
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+        <p className="text-lg text-stone-600 max-w-3xl mx-auto">
           {description}
         </p>
       )}
