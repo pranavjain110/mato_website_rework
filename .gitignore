@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ESLint cache
+.eslintcache
+
+# Vite specific
+.vite/
+
+# TypeScript (if using TypeScript)
+*.tsbuildinfo
+
+# Tailwind CSS (compiled output if manually compiled)
+# Usually not needed as Vite handles this, but uncomment if you have custom build process
+# src/output.css
+# public/styles.css
+
+# Local Netlify folder
+.netlify
+
+# Vercel
+.vercel
+
+# Temporary folders
+tmp/
+temp/
